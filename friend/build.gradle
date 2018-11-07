@@ -38,6 +38,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation project(':router')
-    implementation project(':annotation')
-    kapt project(':compiler')
+    implementation project(':router-annotation')
+    kapt project(':router-compiler')
 }

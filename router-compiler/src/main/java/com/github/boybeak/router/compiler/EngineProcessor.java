@@ -119,6 +119,8 @@ public class EngineProcessor extends AbstractProcessor {
             mb.addCode("$L.setClass($L, $L.class);\n\n", intent, CONTEXT, Helper.getActivity(it));
         } else if (Helper.isActionIt(it)) {
             mb.addCode("$L.setAction(\"$L\");\n\n", intent, it.action());
+        } else {
+            throw new RuntimeException("At least set activity or action attribute in annotation @Intent.");
         }
         String pkg = it.packageName();
         if (!"".equals(pkg)) {

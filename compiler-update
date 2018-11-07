@@ -1,0 +1,2 @@
+./gradlew router-compiler:install
+./gradlew router-compiler:bintrayUpload
