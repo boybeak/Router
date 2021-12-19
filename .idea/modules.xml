@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Router.iml" filepath="$PROJECT_DIR$/Router.iml" />
-      <module fileurl="file://$PROJECT_DIR$/friend/friend.iml" filepath="$PROJECT_DIR$/friend/friend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/router/router.iml" filepath="$PROJECT_DIR$/router/router.iml" />
-      <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/router-compiler/router-compiler.iml" filepath="$PROJECT_DIR$/router-compiler/router-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/friend/Router.friend.iml" filepath="$PROJECT_DIR$/.idea/modules/friend/Router.friend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router/Router.router.iml" filepath="$PROJECT_DIR$/.idea/modules/router/Router.router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-annotation/Router.router-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/router-annotation/Router.router-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-compiler/Router.router-compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/router-compiler/Router.router-compiler.iml" />
     </modules>
   </component>
 </project>

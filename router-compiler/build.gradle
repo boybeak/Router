@@ -1,7 +1,5 @@
 apply plugin: 'java-library'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'org.jetbrains.dokka-android'
-apply plugin: 'maven-publish'
+apply from: '../publish-script.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -12,10 +10,3 @@ dependencies {
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
-
-dokka {
-    outputFormat = 'html'
-    outputDirectory = '$buildDir/javadoc'
-}
-
-apply from: 'deploy-router-compiler.gradle'

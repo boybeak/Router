@@ -6,8 +6,6 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
 
-
-
     defaultConfig {
         applicationId "com.github.boybeak.friend"
         minSdkVersion 21
