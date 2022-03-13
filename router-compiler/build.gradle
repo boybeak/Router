@@ -4,7 +4,7 @@ apply from: '../publish-script.gradle'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation project(':router-annotation')
+    compileOnly 'com.github.boybeak:router-annotation:0.0.3'
     implementation 'com.squareup:javapoet:1.11.1'
 }
 
